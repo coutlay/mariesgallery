@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+    height:25;
+    
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5%;
+    text-align: center;
+
+}
+
+h1, h2 {
+  display: inline;
+  background: #fff;
+
+}
+h1 {
+  font-size: 30px
+}
+h2 {
+  font-size: 20px;
+}
+
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   div.gallery {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   div.gallery {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   div.gallery {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   div.gallery {
+      width: 25%;
+      padding-bottom: 25%;
+   }
+}
+
+</style>
+</head>
+<body>
+<div>
+<center><h1>Welcome to Marie's Favorite Photos</h1><br>
+<h2>(these are some example photos)</h2><center>
+</div>
+<br>
+<hr>
+<br>
+<div class="gallery">
+  <a target="_blank" href="https://nordicsaga.com//assets/galleries/838/original/fjord10-2.jpg">
+    <img src="https://nordicsaga.com//assets/galleries/838/original/fjord10-2.jpg" alt="Fjords" width="300" height="200">
+  </a>
+  <div class="desc">A fjord is a long and narrow inset with steep sides</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="http://www.rff.org/files/terms/backgrounds/Forests.jpg">
+    <img src="http://www.rff.org/files/terms/backgrounds/Forests.jpg" alt="Forest" width="300" height="200">
+  </a>
+  <div class="desc"><br>A forest is a large area covered in trees </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.nordicvisitor.com/images/iceland/winter/northern-lights-lake-thingvellir-national-park-iceland.jpg">
+    <img src="https://www.nordicvisitor.com/images/iceland/winter/northern-lights-lake-thingvellir-national-park-iceland.jpg" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">An Aurora (Northern lights) is a natural light displayed in the earth's sky'</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="http://www.telegraph.co.uk/content/dam/Travel/galleries/travel/activityandadventure/The-worlds-most-beautiful-mountains/mountains-Kirkjufe_3374110a.jpg">
+    <img src="http://www.telegraph.co.uk/content/dam/Travel/galleries/travel/activityandadventure/The-worlds-most-beautiful-mountains/mountains-Kirkjufe_3374110a.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">A mountain is a large platform that stretches above a landscape</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/5/5d/Peninsula_croatia.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Peninsula_croatia.jpg" alt="Fjords" width="300" height="200">
+  </a>
+  <div class="desc">A peninsula is a piece of land surrounded mostly by water</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://wonderopolis.org/wp-content/uploads/2016/06/Swamp_Featured_xl_55847560_(Custom).jpg">
+    <img src="https://wonderopolis.org/wp-content/uploads/2016/06/Swamp_Featured_xl_55847560_(Custom).jpg" alt="Fjords" width="300" height="200">
+  </a>
+  <div class="desc">A swamp is a wetland that is forested</div>
+</div>
+</body>
+</html>
